@@ -106,7 +106,7 @@ start(500,500) # girilen cordinat ile oyuna tıkla / başla
 time.sleep(1)
 for i in range (1,15):     
     get_item()
-    alchemistry_go()
+    go_alchemistry()
     throw_item()
     gun_market()
     

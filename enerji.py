@@ -33,6 +33,16 @@ def go_alchemistry () :
     for i in range (1,20):  # 2 sn 
         pyautogui.press('w')
 
+'''
+def go_alchemistry () :
+    #15 press 1 sn
+    pyautogui.press('s', presses=68, interval=0.02)  # 4.5 sn
+    pyautogui.press('e', presses=15, interval=0.02)  # 1 sn
+    pyautogui.press('w', presses=180, interval=0.02) # 12 sn
+    pyautogui.press('q', presses=30, interval=0.02)  # 2 sn
+    pyautogui.press('w', presses=30, interval=0.02)  # 2 sn
+'''
+
 def go_market () :
     for i in range (1,30): #3 sn
         pyautogui.press('s')
@@ -54,7 +64,18 @@ def go_market () :
         
     for i in range (1,15):  # 1.5 sn 
         pyautogui.press('w')
+'''
+def go_market () :
+    #15 press 1 sn
+    pyautogui.press('s', presses=45, interval=0.02)  # 3 sn
+    pyautogui.press('q', presses=21, interval=0.02)  # 1.5 sn
+    pyautogui.press('w', presses=105, interval=0.02) # 7 sn
+    pyautogui.press('e', presses=5, interval=0.02)  # 0.3 sn
+    pyautogui.press('w', presses=98, interval=0.02)  # 6.5 sn
+    pyautogui.press('e', presses=3, interval=0.02)  # 0.2 sn
+    pyautogui.press('w', presses=21, interval=0.02)  # 1.5 sn
 
+'''
 def throw_item () : 
     pyautogui.displayMousePosition(750,578) # simyacıyı kordinantı
     time.sleep(0.2)

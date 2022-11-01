@@ -3,7 +3,25 @@ import time
 
 def start(x,y): 
     pyautogui.leftClick(x,y)
-    
+
+
+'''
+from python_imagesearch import imagesearch
+
+def get_item2():
+    while (True) :
+        market = imagesearch.imagesearch("market.png")
+        if market[0] != -1:
+            pyautogui.moveTo(market[0]+20, market[1]+110)
+            pyautogui.click(button='left', clicks=1)
+           
+            time.sleep(0.2)
+            pyautogui.moveTo(680, 300)  # marketi aç konumu
+            pyautogui.click(button='left', clicks=1)  # marketi aça tıkladı
+            break
+        else:
+            print("market açılamadı, tekrar açmayı dene")
+'''
 
 def get_item() :
     pyautogui.moveTo(680,363) #silah satıcısı kordinantı

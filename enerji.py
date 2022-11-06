@@ -33,8 +33,43 @@ def get_item() :
     for i in range (1,80) : # item al
         pyautogui.leftClick(450,700) 
         time.sleep(0.7)
+
+
+def go_alchemistry () :  #ekran klavyesi ile çalışır, simyacıya gidiş
+    w = 200,915
+    a = 164,953
+    s = 223,946
+    d = 290,953
+    q = 144,915
+    e = 268,915
+    pyautogui.leftClick(346,15)
+
+    pyautogui.moveTo(s)
+    pyautogui.mouseDown()
+    time.sleep(6.5)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(e)
+    pyautogui.mouseDown()
+    time.sleep(0.6)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(w)
+    pyautogui.mouseDown()
+    time.sleep(16.5)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(q)
+    pyautogui.mouseDown()
+    time.sleep(0.28)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(w)
+    pyautogui.mouseDown()
+    time.sleep(2)
+    pyautogui.mouseUp()
     
-    
+'''    
 def go_alchemistry () :
     for i in range (1,45): #4.5 sn
         pyautogui.press('s')
@@ -50,7 +85,7 @@ def go_alchemistry () :
     
     for i in range (1,20):  # 2 sn 
         pyautogui.press('w')
-
+'''
 '''
 def go_alchemistry () :
     #15 press 1 sn
@@ -61,6 +96,41 @@ def go_alchemistry () :
     pyautogui.press('w', presses=30, interval=0.02)  # 2 sn
 '''
 
+
+def go_market () :  #ekran klavyesi ile çalışır, silah  satıcısına gidiş
+    w = 200,915
+    a = 164,953
+    s = 223,946
+    d = 290,953
+    q = 144,915
+    e = 268,915
+    pyautogui.leftClick(346,15)
+
+    pyautogui.moveTo(s)
+    pyautogui.mouseDown()
+    time.sleep(4.5)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(q)
+    pyautogui.mouseDown()
+    time.sleep(1.4)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(w)
+    pyautogui.mouseDown()
+    time.sleep(11)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(e)
+    pyautogui.mouseDown()
+    time.sleep(0.75)
+    pyautogui.mouseUp()
+
+    pyautogui.moveTo(w)
+    pyautogui.mouseDown()
+    time.sleep(6)
+    pyautogui.mouseUp()
+'''
 def go_market () :
     for i in range (1,30): #3 sn
         pyautogui.press('s')
@@ -82,6 +152,7 @@ def go_market () :
         
     for i in range (1,15):  # 1.5 sn 
         pyautogui.press('w')
+'''
 '''
 def go_market () :
     #15 press 1 sn
